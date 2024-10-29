@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="images/WhatsApp Image 2024-09-19 at 16.41.02_90ace001.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+    <style>
+        #contact {
+            background-color: rgba(161, 8, 8, 0.867);
+    color: rgba(201, 201, 206, 0.982);
+    font-size: 16.9px;
+    border-radius: 5px;
+        }
+
+        td{
+            padding: 10px;
+            text-align: center;
+        }
+        input{
+        width: 600px;
+        height: 50px;
+        border-color: aliceblue;
+        }
+        .button{
+            width: 300px;
+            height: 100px;
+            background-color: transparent;
+            color: aliceblue;
+            font-size: 26px;
+            border: 2px solid red;
+            border-radius: 6px;
+            font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        }
+        .button:hover{
+            background-color: red;
+            filter: drop-shadow(3px 13px 18px rgba(196, 27, 27, 0.925));
+            transform: scale(1.2);
+        }
+        .smedia{
+            color: grey;
+            display: flex;
+            gap: 50px;
+            /* align-items: center; */
+            /* width: 190px; */
+            margin-left: 129px;
+        }
+        #socials{
+            /* border: solid 1px rgb(228, 200, 200); */
+            width: 12px;
+            height: 12px;
+            
+            
+        }
+        #media{
+            font-size: xx-large;
+            border: solid 3px rgb(228, 4, 4);
+            padding: 6px;
+            border-radius: 10px;
+        }
+        .social-media:hover{
+            filter: drop-shadow(3px 13px 18px rgba(194, 145, 145, 0.925));
+            /* transform: scale(3.0); */
+            font-size: 50px;
+        }
+        a:link, a:visited {
+            color: grey;
+            text-decoration: none
+}
+
+    a:link:active, a:visited:active {
+    color: grey;
+    text-decoration: none
+}
+    a:checked{
+    color: grey;
+            text-decoration: none
+}
+    </style>
+</head>
+
+
+<body style="background-image: url(bg2.jpg);">
+    <!-- <h1>PERFORMED BY BOLU AND SAMUEL</h1> -->
+    <!-- <img src="images/logo1.jpg" alt="logo" width="200px" height="100px"> -->
+    <div class="head">
+    <nav>
+        <a href="index.html" class="top1" id="home">Home</a>
+        <a href="about.html" class="top1" id="about">About</a>
+        <a href="service.html" class="top1" id="serve">Services</a>
+        <a href="contact.html" class="top1" id="contact">Contact Us</a>
+    </nav>
+</div>
+<img src="images/logo1.jpg" alt="logo" width="200px" height="100px" style="margin-top: -40%;">
+<br><br>
+<marquee behavior="scroll" direction="left" scrollamount="5" class="discount" >
+    We offer discount every Friday.
+    (Buy one, get one free.)
+    Special meal. 
+    Check out the services page for more information.
+</marquee>
+<br><br><br>
+<form action="" method="get">
+<table style="color: aliceblue; width: 500px;">
+    <tr>
+        <!-- <td style="width: 400px;"><label for="name">Name</label></td> -->
+        <td style="width: 400px;"><input type="text" name="name" placeholder="Name *" required style="background-color: transparent; color: aliceblue;"></td>
+    </tr>
+    <tr>
+        <!-- <td style="width: 400px;"><label for="name">Name</label></td> -->
+        <td style="width: 400px;"><input type="email" name="email" placeholder="Email *" required style="background-color: transparent; color: aliceblue;"></td>
+    </tr>
+    <tr>
+        <!-- <td style="width: 400px;"><label for="name">Name</label></td> -->
+        <td style="width: 400px;"><input type="tel" name="Phone" placeholder="Phone Number *" required style="background-color: transparent; color: aliceblue;"></td>
+    </tr>
+    <tr>
+        <!-- <td style="width: 400px;"><label for="name">Name</label></td> -->
+        <td style="width: 400px;"><textarea name="textarea" id="send-message" style="width: 600px; background-color: transparent; height: 200px; color: aliceblue;"></textarea></td>
+    </tr>
+    <tr>
+        <!-- <td style="width: 400px;"><label for="name">Name</label></td> -->
+        <td style="width: 400px;"><button type="submit" class="button" onclick="">Send Message</button></td>
+    </tr>
+</table>
+ <br><br><br>
+
+ <div class="smedia" >
+ <div id="socials">
+    <span class="social-media"><a class="fab fa-instagram" id="media" ></a></span>
+ </div>
+ <div id="socials">
+    <span class="social-media"><a class="fab fa-whatsapp" id="media" href="https://wa.me/+2349068897090" target="_top"></a></span>
+ </div>
+ <div id="socials">
+    <span class="social-media"> <a class="fab fa-facebook" id="media"></a></span>
+ </div>
+ <div id="socials">
+    <span class="social-media"> <a class="fab fa-linkedin" id="media"></a></span>
+ </div>
+ <div id="socials">
+    <span class="social-media"> <a class="fab fa-twitter" id="media"></a></span>
+ </div>
+ <div id="socials">
+    <span class="social-media"> <a class="fab fa-youtube" id="media" href="http://www.youtube.com/@hildabaci1"></a></span>
+ </div>
+</div>
+</form>
+<br><br><br><br><br><br><br>
+</body>
+</html>
